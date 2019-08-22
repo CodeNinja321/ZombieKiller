@@ -1,2 +1,7 @@
 A small powershell script to kill Docker zombie containers
 The manual process was found at https://freddysblog.com/2019/08/07/zombie-containers-skip-this-build/
+
+Usage
+1. Place the ZombieKiller.psm1 into the folder at "C:\Users\{{Your_user}}\Documents\WindowsPowerShell\modules\ZombieKiller"
+2. In powershell run Import-Module ZombieKiller
+3. In powershell run ZombieKiller {{Container Name}}
