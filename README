@@ -1,0 +1,2 @@
+A small powershell script to kill Docker zombie containers
+The manual process was found at https://freddysblog.com/2019/08/07/zombie-containers-skip-this-build/
